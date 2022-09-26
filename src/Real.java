@@ -1,8 +1,8 @@
-public class Num extends Token {
-    public final int value;
+public class Real extends Token {
+    public final float value;
 
-    public Num(int v) {
-        super(Tag.NUM);
+    public Real(float v) {
+        super(Tag.REAL);
         value = v;
     }
 
